@@ -14,6 +14,11 @@ header {
   text-align: center;
 }
 
+header img {
+    max-height: 120px;
+    width: auto;
+}
+
 nav ul {
   padding: 0;
   list-style: none;
