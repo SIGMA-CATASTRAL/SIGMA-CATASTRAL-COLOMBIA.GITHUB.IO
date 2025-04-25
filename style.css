@@ -15,8 +15,7 @@ header {
 }
 
 header img {
-    max-height: 120px;
-    width: auto;
+    height: 100px;
 }
 
 nav ul {
