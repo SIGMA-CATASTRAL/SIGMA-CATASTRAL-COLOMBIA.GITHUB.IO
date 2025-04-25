@@ -9,7 +9,6 @@
 <body>
   <header>
     <h1>SIGMA CATASTRAL COLOMBIA</h1>
-    <h1>FUNDADORA HEIDY ROJAS DE CRISTIAN CAMARGO</h1>
     <p>Especialistas en soluciones geográficas y catastrales</p>
     <nav>
       <ul>
@@ -37,12 +36,12 @@
 
   <section id="contacto">
     <h2>Contacto</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Nombre" required />
-      <input type="email" placeholder="Correo electrónico" required />
-      <textarea placeholder="Mensaje" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+    <form id="contact-form" action="https://formspree.io/f/xjkwkgqr" method="POST">
+  <input type="text" name="nombre" placeholder="Nombre" required />
+  <input type="email" name="email" placeholder="Correo electrónico" required />
+  <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
   </section>
 
   <footer>
