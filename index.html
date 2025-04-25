@@ -1,42 +1,122 @@
 <!DOCTYPE html>
-<html lang="es"> 
-<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
-  <img src="logo-sigma.png" alt="Logo SIGMA Catastral" style="width: 120px; height: auto;" /> 
-  <div style="text-align: right;">
-    <h1 style="margin: 0; font-size: 24px;">SIGMA CATASTRAL COLOMBIA</h1>
-    <h2 style="margin: 0; font-size: 16px; font-weight: normal;">FUNDADORA HEIDY ROJAS DE CRISTIAN CAMARGO</h2>
-    <p style="margin: 5px 0 0;">Especialistas en soluciones geográficas y catastrales</p>
-  </div>
-</header>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGMA CATASTRAL COLOMBIA</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header img {
+            height: 60px;
+        }
+        nav {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
 <body>
-  <header>
-    <h1>SIGMA CATASTRAL COLOMBIA</h1>
-    <p>Especialistas en soluciones geográficas y catastrales</p>
-    <nav>
-      <ul>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="servicios">
+<header>
+    <img src="logo.png" alt="Logo SIGMA CATASTRAL">
+    <div>
+        <h1>SIGMA CATASTRAL COLOMBIA</h1>
+        <p>FUNDADORA HEIDY ROJAS DE CRISTIAN CAMARGO</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
     <h2>Servicios</h2>
     <ul>
-      <li>Levantamientos topográficos</li>
-      <li>Mapas georreferenciados</li>
-      <li>Actualización catastral</li>
-      <li>Asesoría en SIG (Sistemas de Información Geográfica)</li>
+        <li>Levantamientos topográficos</li>
+        <li>Mapas georreferenciados</li>
+        <li>Actualización catastral</li>
+        <li>Asesoría en SIG (Sistemas de Información Geográfica)</li>
     </ul>
-  </section>
+</section>
 
-  <section id="nosotros">
+<section id="nosotros">
     <h2>Quiénes Somos</h2>
     <p>Somos una empresa con más de 10 años de experiencia en servicios geográficos y catastrales, trabajando con tecnología de punta y un equipo altamente calificado.</p>
-  </section>
+</section>
 
-  <section id="contacto">
+<section id="contacto">
     <h2>Contacto</h2>
     <form id="contact-form" action="https://formspree.io/f/xjkwkgqr" method="POST">
   <input type="text" name="nombre" placeholder="Nombre" required />
@@ -44,12 +124,11 @@
   <textarea name="mensaje" placeholder="Mensaje" required></textarea>
   <button type="submit">Enviar</button>
 </form>
-  </section>
+</section>
 
-  <footer>
-    <p>&copy; 2025 GeoCat Servicios. Todos los derechos reservados.</p>
-  </footer>
+<footer>
+    © 2025 SIGMA CATASTRAL COLOMBIA. Todos los derechos reservados.
+</footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
